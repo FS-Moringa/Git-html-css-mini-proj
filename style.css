@@ -1,0 +1,113 @@
+.navbar {
+    height:7vw;
+    display:flex;
+    justify-content:space-between;
+    background-color: #eaebda;
+    align-content: center;
+}
+.navbar .logo {
+    height:100%;
+}
+.navbar .logo img{
+    height:100%;
+    cursor:pointer
+}
+.navbar .links {
+    height:100%;
+    text-align: center;
+    margin:1.2%;
+}
+.navbar .links ul{
+
+    list-style-type: none;
+    display: inline-flex;
+    padding-left:0
+}
+.navbar .links ul li{
+padding:3%;
+}
+.navbar .links ul li a{
+text-decoration: none;
+color:#074cb3;
+cursor: pointer;
+
+}
+/* banner section */
+
+
+.banner{
+    width:100vw;
+    height:80vh;
+}
+.banner .img-container{
+    width:100%;
+    height:100%; 
+    text-align: center;
+}
+.banner .img-container img{
+    width:100%;
+    height:100%;
+}
+.banner .overlay{
+    width:100%;
+    height:83%;
+    background-color: #000;
+    z-index: +1;
+    position:absolute;
+    opacity:0.7;
+}
+.banner  p{
+    position:absolute;
+    color:#fff;
+    font-size: 5rem;
+    z-index:2;
+}
+.banner .about-btn{
+    position:absolute;
+    color:#000;
+    font-size: 4rem;
+    cursor:pointer;
+    z-index:2;
+    left:40%;
+    top:70%;
+    border-radius:2.4rem;
+}
+.banner .about-btn:hover{
+    font-size:4.3rem;
+    color:#eaebda;
+    background:black;
+}
+.about{
+    width:100vw;
+    height:80vh;
+    background-color:#eaebda;
+    display:flex;
+    flex-direction:column;
+}
+.about .heading {
+    color:#126b0e;
+    width: 100%;
+    height: 20%;
+    margin:1%;
+    text-align:center;
+}
+.about .about-info{
+    display:flex;
+    width:100%;
+    height:70%;
+    justify-content: space-between;
+}
+.about .about-info .about-image{
+width:60%;
+
+}
+.about .about-info .about-image img{
+    width: 100%;
+    height:100%;
+    border-radius: 1.4rem;
+}
+.about .about-info  .about-text{
+    width: 35%;
+}
+
+/* services */
